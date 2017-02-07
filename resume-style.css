@@ -12,9 +12,10 @@ h2 {
 ul {
 		margin-top: 1px;
 		margin-bottom: 1px;
+		list-style-type: disc;
 }
 .tabs {
-		padding-left: 4em;
-		margin-top: 0px;
-		margin-bottom: 0px;
+		padding-left: 2em;
+		margin-top: -5px;
+		margin-bottom: -5px;
 }

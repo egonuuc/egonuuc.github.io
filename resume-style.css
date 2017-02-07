@@ -1,6 +1,7 @@
 body {
 		font-family: Helvetica;
 		color: black;
+		margin-right: 5%;
 }
 h1 {
 		text-align: center;
@@ -19,7 +20,7 @@ ul {
 }
 span {
 		float: right;
-		margin-right: 10%;
+		margin-right: 5%;
 		font-weight: bold;
 }
 .tabs {

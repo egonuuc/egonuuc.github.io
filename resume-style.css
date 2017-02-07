@@ -19,6 +19,7 @@ ul {
 }
 span {
 		float: right;
+		margin-right: 10%;
 		font-weight: bold;
 }
 .tabs {

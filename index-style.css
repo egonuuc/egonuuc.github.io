@@ -1,0 +1,24 @@
+body{
+	font-family: Helvetica;
+	background-color: whitesmoke;
+	color: black;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+#resize {
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+#resize img{
+	max-width: 100%;
+	max-height: 100%;
+}

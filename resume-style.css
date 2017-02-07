@@ -15,9 +15,7 @@ ul {
 		list-style-type: circle;
 }
 .tabs {
-		padding-left: 1em;
-		margin-bottom: 0px;
-		margin-top: 0px;
-		padding-bottom: -5px;
-		padding-top: -5px;
+		margin-top: 1px;
+		margin-bottom: 1px;
+		list-style-type: none;
 }

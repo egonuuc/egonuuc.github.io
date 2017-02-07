@@ -13,12 +13,16 @@ h2 {
 		border-bottom-style: dotted;
 }
 ul {
-		margin-top: 1px;
-		margin-bottom: 1px;
+		margin-top: 0px;
+		margin-bottom: 0px;
 		list-style-type: circle;
 }
 .tabs {
 		margin-top: 1px;
 		margin-bottom: 1px;
 		list-style-type: none;
+}
+.less_padding {
+		margin-top: 1px;
+		margin-bottom: 1px;
 }

@@ -1,7 +1,6 @@
 body {
 		font-family: Helvetica;
 		color: dimgray;
-		background-color: green;
 }
 h1 {
 		text-align: center;
@@ -13,4 +12,9 @@ h2 {
 ul {
 		margin-top: 1px;
 		margin-bottom: 1px;
+}
+.tabs {
+		padding-left: 4em;
+		margin-top: 0px;
+		margin-bottom: 0px;
 }

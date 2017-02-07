@@ -1,13 +1,16 @@
 body {
 		font-family: Helvetica;
-		color: dimgray;
+		color: black;
 }
 h1 {
 		text-align: center;
 		color: maroon;
 }
 h2 {
-		margin-bottom: 0px;
+		margin-bottom: 1px;
+		border-bottom-width: 1px;
+		border-bottom-color: dimgray;
+		border-bottom-style: dotted;
 }
 ul {
 		margin-top: 1px;

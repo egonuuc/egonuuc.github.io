@@ -1,7 +1,8 @@
 body {
 		font-family: Helvetica;
 		color: black;
-		margin-right: 5%;
+		margin-left: 1%;
+		background-color: whitesmoke;
 }
 h1 {
 		text-align: center;
@@ -20,8 +21,11 @@ ul {
 }
 span {
 		float: right;
-		margin-right: 5%;
+		margin-right: 1%;
 		font-weight: bold;
+}
+.job_titles{
+		font-style: italic;
 }
 .tabs {
 		margin-top: -10px;

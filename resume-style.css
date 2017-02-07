@@ -12,7 +12,7 @@ h2 {
 ul {
 		margin-top: 1px;
 		margin-bottom: 1px;
-		list-style-type: disc;
+		list-style-type: circle;
 }
 .tabs {
 		padding-left: 2em;

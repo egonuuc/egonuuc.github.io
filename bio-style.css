@@ -1,0 +1,12 @@
+body{
+	font-family: Helvetica;
+	background-color: whitesmoke;
+	color: black;
+}
+h1{
+	text-align: center;
+}
+p{
+	margin-right: 10%;
+	margin-left: 10%
+}

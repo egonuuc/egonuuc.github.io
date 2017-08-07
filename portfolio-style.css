@@ -5,7 +5,7 @@ html, body {
 body{
 	/*background-color: #FCFCFC;*/
 	font-size: 30px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: black;
 	font-style: normal;
 	text-transform: uppercase;
@@ -25,6 +25,16 @@ body{
 }
 a:hover{
 	color: #C71585;
+}
+.sectionSqs-sm{
+  width: 150px;
+  height: 150px;
+  background-color: navy;
+}
+#web{
+  float: right;
+  margin-top: 20%;
+  margin-right: 100px;
 }
 
 p{

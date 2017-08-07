@@ -1,22 +1,62 @@
-body{
-	font-family: Helvetica;
-	background-color: whitesmoke;
-	color: black;
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
 }
-h1{
+body{
+	background-color: #061728;
+	background:-o-linear-gradient(-89deg, #496a80 0%, #061728 100%);
+	background:-moz-linear-gradient(-89deg, #496a80 0%, #061728 100%);
+	background:-ms-linear-gradient(-89deg, #496a80 0%, #061728 100%);
+	background:linear-gradient(-179deg, #496a80 0%,#061728 100%);
+	background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+h1 {
+	/*font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
+	font-size: 68px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	color: white;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: 100;
+	line-height: 26.4px;
 	text-align: center;
+	word-spacing: 20px;
+	letter-spacing: 28px;
+	margin-top:10%;
+} 
+a:hover{
+	color: #C71585;
+}
+#line{
+	background-color: white;
+	height: 2px;
+	text-align: center;
+	width: 800px;
+	margin-top: 100px;
+	margin-left: 307px;
+
 }
 p{
 	text-align: center;
-}
-#resize {
-	width: 500px;
-	height: 500px;
+	font-size: 40px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	color: white;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: 100;
+	line-height: 26.4px;
 	text-align: center;
-	display: block;
-	margin: 0 auto;
+	margin-top:10%;
 }
-#resize img{
-	max-width: 100%;
-	max-height: 100%;
+.link{
+	color: white;
+	text-decoration: none;
+}
+a{
+	position: relative;
+}
+.sections{
+	margin-top: 530px;
 }

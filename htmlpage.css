@@ -1,0 +1,105 @@
+html, body {
+    margin: -8px;
+    padding: 0;
+}
+body{
+	/*background-color: #FCFCFC;*/
+	font-size: 30px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	color: black;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: 100;
+	line-height: 26.4px;
+	text-align: center;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+	background: -webkit-linear-gradient(top,#FCFCFC,#EFEFEF 50%);
+    background: linear-gradient(180deg,#FCFCFC,#EFEFEF 50%);
+    background-color: #EFEFEF;
+    background-repeat: no-repeat;
+    color: rgba(0,0,0,.8);
+    min-width: 1024px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a:hover{
+	color: #C71585;
+}
+
+#topBar{
+	height: 50px;
+	background: black;
+	box-shadow: 3px 3px 4px #757575;
+}
+#barOne{
+	display: block;
+	margin-top: 100px;
+	height: 60px;
+	background-color: black;
+	-moz-box-shadow:0px 0px 10px 0px #000000;
+	-webkit-box-shadow:0px 0px 10px 0px #000000;
+	box-shadow:0px 0px 10px 0px #000000;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+  	-moz-border-radius-topRight: 5px;
+  	border-top-right-radius: 5px;
+  	border-top-left-radius: 5px;
+  	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+  	-moz-border-radius-bottomRight: 5px;
+  	border-bottom-right-radius: 5px;
+  	border-bottom-left-radius: 5px;
+}
+#barOne:hover {
+	margin-top: 70px;
+	width: 800px;
+	height: 80px;
+	background-color: navy;
+	/*box-shadow: 0px 0px 20px #757575;*/
+	-moz-box-shadow:0px 0px 50px 0px #000000;
+	-webkit-box-shadow:0px 0px 50px 0px #000000;
+	box-shadow:0px 0px 50px 0px #000000;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+  	-moz-border-radius-topRight: 10px;
+  	border-top-right-radius: 10px;
+  	border-top-left-radius: 10px;
+  	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+  	-moz-border-radius-bottomRight: 10px;
+  	border-bottom-right-radius: 10px;
+  	border-bottom-left-radius: 10px;
+  	z-index: 10;
+}
+#barOne:hover > #content{
+	margin-top: 26px;
+}
+#title{
+	margin-top: 200px;
+	text-align: right;
+	float: right;
+	position: absolute;
+
+}
+#text{
+	float: right;
+	text-align: right;
+	margin-right: 15px;
+	margin-top: 20%;
+	font-weight: 900;
+	font-size: 1.5em;
+}
+#content{
+	color: white;
+	display: block;
+	position: relative;
+	font-weight: 800;
+	margin-top: 15px;
+	padding-left: 15%;
+    font-size: 50px;
+}

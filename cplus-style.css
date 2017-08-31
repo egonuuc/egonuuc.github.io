@@ -1,0 +1,79 @@
+body{
+	/*background-color: #FCFCFC;*/
+	font-size: 30px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	color: black;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: 100;
+	line-height: 26.4px;
+	text-align: center;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+	background: -webkit-linear-gradient(top,#FCFCFC,#EFEFEF 50%);
+    background: linear-gradient(180deg,#FCFCFC,#EFEFEF 50%);
+    background-color: #EFEFEF;
+    background-repeat: no-repeat;
+    color: rgba(0,0,0,.8);
+    min-width: 1024px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#topBar{
+	margin-right: -20px;
+	margin-left: -20px;
+	height: 60px;
+	background: #375361;
+	box-shadow: 3px 3px 4px #757575;
+}
+.col-sm-4{
+	background-color: #496a80;
+	width: 230px;
+	height: 230px;
+	font-size: .6em;
+	float:left;
+    position: relative;
+    /*width: 30%;*/
+    /*padding-bottom : 27%;  = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.col-sm-4:hover{
+	background-color: #375361;	
+}
+#cplus:hover{
+	margin-left: -36px;
+	width: 280px;
+	height: 280px;
+	margin-top: -36px;
+}
+#python:hover{
+	margin-left: -36px;
+	width: 280px;
+	height: 280px;
+	margin-bottom: -36px;
+}
+#web:hover{
+	margin-right: -36px;
+	width: 280px;
+	height: 280px;
+	margin-top: -36px;
+}
+#graphics:hover{
+	margin-right: -36px;
+	width: 280px;
+	height: 280px;
+	margin-bottom: -36px;
+}
+.sections{
+	text-align: center;
+	padding-left: 360px;
+	margin-top: 70px;
+}
+.content{
+	margin-top: 36%;
+	color: white;
+	font-weight: 900;
+	display: block;
+}

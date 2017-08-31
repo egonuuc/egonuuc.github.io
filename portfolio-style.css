@@ -58,11 +58,13 @@ p{
 	float: right;
 	margin-right: 10px;
 	margin-top: 150px;
+	cursor: pointer;
 }
 #web:hover{
 	width: 230px;
 	height: 230px;
 	margin-top: 70px;
+	background-color: #375361;
 }
 #python{
 	width: 150px;
@@ -72,11 +74,13 @@ p{
 	float: right;
 	margin-right: 130px;
 	margin-top: 10px;
+	cursor: pointer;
 }
 #python:hover{
 	width: 230px;
 	height: 230px;
 	margin-right: 50px;
+	background-color: #375361;
 	/*margin-top: 70px;*/
 }
 #cplus{
@@ -87,12 +91,14 @@ p{
 	float: right;
 	margin-right: 160px;
 	margin-top: 100px;
+	cursor: pointer;
 }
 #cplus:hover{
 	width: 270px;
 	height: 270px;
 	margin-top: 30px;
 	margin-right:90px;
+	background-color: #375361;
 }
 #graphics{
 	width: 200px;
@@ -103,10 +109,12 @@ p{
 	float: right;
 	margin-right: 10px;
 	margin-top: 10px;
+	cursor: pointer;
 }
 #graphics:hover{
 	width: 280px;
 	height: 280px;
+	background-color: #375361;
 	/*margin-top: 70px;*/
 }
 .sections{

@@ -42,25 +42,25 @@ body{
 .col-sm-4:hover{
 	background-color: #375361;	
 }
-#gerp:hover{
+#granoff:hover{
 	margin-left: -36px;
 	width: 280px;
 	height: 280px;
 	margin-top: -36px;
 }
-#sorts:hover{
+#cfs:hover{
 	margin-left: -36px;
 	width: 280px;
 	height: 280px;
 	margin-bottom: -36px;
 }
-#rpn:hover{
+#speak:hover{
 	margin-right: -36px;
 	width: 280px;
 	height: 280px;
 	margin-top: -36px;
 }
-#sudoku:hover{
+#granoff1:hover{
 	margin-right: -36px;
 	width: 280px;
 	height: 280px;

@@ -42,25 +42,25 @@ body{
 .col-sm-4:hover{
 	background-color: #375361;	
 }
-#cplus:hover{
+#mySite:hover{
 	margin-left: -36px;
 	width: 280px;
 	height: 280px;
 	margin-top: -36px;
 }
-#python:hover{
+#notUber:hover{
 	margin-left: -36px;
 	width: 280px;
 	height: 280px;
 	margin-bottom: -36px;
 }
-#web:hover{
+#trumpLibs:hover{
 	margin-right: -36px;
 	width: 280px;
 	height: 280px;
 	margin-top: -36px;
 }
-#graphics:hover{
+#gwc:hover{
 	margin-right: -36px;
 	width: 280px;
 	height: 280px;
@@ -76,4 +76,20 @@ body{
 	color: white;
 	font-weight: 900;
 	display: block;
+}
+.modal-title{
+	font-weight: 600;
+}
+.modal-body{
+	font-size: .5em;
+	letter-spacing: 0px;
+	text-transform: none;
+	text-align: left;
+}
+span{
+	font-weight: 600;
+}
+.modal.fade:not(.in).right .modal-dialog {
+	-webkit-transform: translate3d(25%, 0, 0);
+	transform: translate3d(25%, 0, 0);
 }

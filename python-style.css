@@ -30,7 +30,7 @@ body{
 	background-color: #496a80;
 	width: 230px;
 	height: 230px;
-	font-size: .6em;
+	font-size: .5em;
 	float:left;
     position: relative;
     /*width: 30%;*/
@@ -42,25 +42,25 @@ body{
 .col-sm-4:hover{
 	background-color: #375361;	
 }
-#gerp:hover{
+#sideScroll:hover{
 	margin-left: -36px;
 	width: 280px;
 	height: 280px;
 	margin-top: -36px;
 }
-#sorts:hover{
+#obama:hover{
 	margin-left: -36px;
 	width: 280px;
 	height: 280px;
 	margin-bottom: -36px;
 }
-#rpn:hover{
+#socialNet:hover{
 	margin-right: -36px;
 	width: 280px;
 	height: 280px;
 	margin-top: -36px;
 }
-#sudoku:hover{
+#binary:hover{
 	margin-right: -36px;
 	width: 280px;
 	height: 280px;
@@ -72,10 +72,16 @@ body{
 	margin-top: 70px;
 }
 .content{
-	margin-top: 36%;
+	margin-top: 24%;
 	color: white;
 	font-weight: 900;
 	display: block;
+}
+#binary > .content{
+	margin-top: 30%;
+}
+#obama > .content{
+	margin-top: 30%;
 }
 .modal-title{
 	font-weight: 600;

@@ -1,14 +1,44 @@
 body{
+	margin: 0px;
 	font-family: Helvetica;
 	background-color: whitesmoke;
 	color: black;
-	font-size: 26px;
-	margin-top: 20%;
+	font-size: 1.2em;
+	background: -webkit-linear-gradient(top,#FCFCFC,#EFEFEF 50%);
+    background: linear-gradient(180deg,#FCFCFC,#EFEFEF 50%);
+    background-color: #EFEFEF;
+    background-repeat: no-repeat;
+    color: rgba(0,0,0,.8);
+    min-width: 1024px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-h1{
-	text-align: center;
+#text{
+	float: left;
+    width: 50%;
+    height: 1000px;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 1%;
+    line-height: 1.4em;
 }
 p{
-	margin-right: 10%;
-	margin-left: 10%
+	margin-top: -10px;
+}
+#topBar{
+	margin-top: -10px;
+	margin-right: -20px;
+	margin-left: -20px;
+	height: 60px;
+	background: #375361;
+	box-shadow: 3px 3px 4px #757575;
+}
+.resize{
+	max-width: 30%;
+	max-height: 30%;
+}
+#myPic{
+	margin-top: 4%;
+	float: right;
+	margin-right: 6%;
 }

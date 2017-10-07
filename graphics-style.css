@@ -86,6 +86,12 @@ body{
 	text-transform: none;
 	text-align: left;
 }
+.resize{
+	position: relative;
+	padding-left: 20%;
+	max-width: 80%;
+	max-height: 80%;
+}
 span{
 	font-weight: 600;
 }
